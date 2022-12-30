@@ -6,6 +6,8 @@ spring:
   profiles:
     active: dev
   #SpringBoot整合Email 邮件发送 (填你自己的)
+  #Email 邮件发送 配置可以参考csdn 爱打羽球的码猿的'Springboot发送邮件'文章
+  #链接:https://blog.csdn.net/weixin_46822367/article/details/123893527
   mail:
     default-encoding: utf-8
     # 主机地址
@@ -44,7 +46,7 @@ myblog_mail:
   #邮件标题
   mail_title: '你有一条新消息'
 
-#七牛云上传配置(填你自己的)
+#七牛云上传配置密钥(填你自己的)
 qiniu:
   accessKey: xxx
   secretKey: xxx
