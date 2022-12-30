@@ -52,9 +52,9 @@
 - 4.照片墙管理:上传照片,删除照片
 
 ## 项目截图
-
+**主站**
 ![](http://rmel8ulik.hn-bkt.clouddn.com/project/e4aabb6bbee558b10b06c231ce85557.png)
-
+**后台管理文章列表**
 ![](http://rmel8ulik.hn-bkt.clouddn.com/project/36e8857bcfce2407f90720311d0d4a1.png)
-
+**文章编辑**
 ![](http://rmel8ulik.hn-bkt.clouddn.com/project/2d12dd69aca53864ecb4c2381ecc66d.png)
