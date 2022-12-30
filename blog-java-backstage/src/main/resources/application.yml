@@ -1,0 +1,52 @@
+#端口号配置
+server:
+  port: 8888
+spring:
+  #生产/开发 环境配置
+  profiles:
+    active: dev
+  #SpringBoot整合Email 邮件发送 (填你自己的)
+  mail:
+    default-encoding: utf-8
+    # 主机地址
+    host: smtp.163.com
+    #发送方邮箱名
+    username: xxx
+    # 授权码
+    password: xxx
+  servlet:
+    multipart:
+      max-request-size: 20MB
+      max-file-size: 20MB
+#mybatis-plus配置
+mybatis-plus:
+  configuration:
+    #添加日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*.xml
+#日志配置
+logging:
+  lever:
+    root: info
+    com.jiamusi: debug
+  #配置日志文件存放路径
+  file:
+    path: log/blog/
+
+#邮件发送内容信息配置(填你自己的)
+myblog_mail:
+  #域名
+  domain_name: xxx
+  #邮件发送者
+  mail_sender: xxx
+  #邮件抄送
+  mail_cc: xxx
+  #邮件标题
+  mail_title: '你有一条新消息'
+
+#七牛云上传配置(填你自己的)
+qiniu:
+  accessKey: xxx
+  secretKey: xxx
+  bucket: xxx
+  domainName: xxx

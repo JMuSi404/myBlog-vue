@@ -1,0 +1,20 @@
+<template>
+    <!--音乐插件-->
+    <meting-js
+        server="netease"
+        type="playlist"
+        id="7470734184"
+        fixed="true"
+        loop="all"
+        order="random"
+        preload="auto"
+        list-folded="ture"
+        list-max-height="500px"
+        lrc-type="1">
+    </meting-js>
+</template>
+<script>
+export  default{
+  name:'meting'
+}
+</script>
